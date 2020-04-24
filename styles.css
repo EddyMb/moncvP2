@@ -332,8 +332,14 @@ body
 
 #right .recommandation .training h5
 {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 17px;
+    text-transform: uppercase;
+}
+
+#right .recommandation p
+{
+    font-weight: 300;
 }
 
 #right .recommandation a
@@ -344,5 +350,5 @@ body
 
 #right .recommandation .reference
 {
-    font-weight: 300;
+    font-weight: 200;
 }
