@@ -11,3 +11,338 @@ body
     background-color: white;
     font-weight: 400;
 }
+
+ h3
+{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.container
+{
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+/*================================LEFT SIDE========================*/
+
+#left-side
+{
+   background-color: #ffa500;
+   padding: 0;
+}
+
+#left-side .picture
+{
+    text-align: center;
+    margin: 74px;
+    margin-bottom: 41px;   
+}
+
+#left-side .picture .img-pict
+{
+  border-radius: 100%;
+  border: 2px solid grey ;
+  height: 220px;  
+}
+
+/*================================RIGHT SIDE========================*/
+
+#right-side .my-name
+{
+    
+}
+
+#right-side .my-name .nom
+{
+    text-transform: uppercase;
+    font-size: 62px;
+    font-weight: 200;
+}
+
+#right-side .my-name .prenom
+{
+    color: orange; 
+    font-weight: 400;
+}
+
+#right-side .my-name .job
+{
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 180px;
+}
+
+#right-side .my-name .trait
+{
+    border-bottom: 3px solid orange;
+}
+
+/*================================LEFT BOX==========================*/
+
+#left
+{
+    background-color: #ffa500;
+    padding: 0;
+}
+
+#left h3
+{
+    font-size:30px;
+    font-weight: 400;
+    color:#ffa500;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #272424;
+    height: 50px;
+    padding: 8px;
+}
+
+#left .box-contact
+{
+    margin: 40px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+#left .box-contact a
+{
+    color: black;
+    text-decoration: none;
+}
+
+#left .text-about
+{
+    
+    font-size: 18px;
+    padding: 40px;
+    margin-bottom: 350px;
+    font-weight: 300;
+}
+
+
+/*===============================LEFT BOX ICON=========================*/
+
+
+#left .icon
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+#left .icon .foot
+{
+    margin-left: 30px;
+    font-size: 45px;
+}
+
+#left .icon .plane
+{
+    font-size: 45px;
+}
+
+#left .icon .camera
+{
+    margin-right: 30px;
+    font-size: 45px;
+}
+
+
+/*===============================RIGHT BOX ============================*/
+
+#right .formation
+{
+    
+}
+
+#right .formation .title
+{
+    display: flex;
+    border-bottom: 1px solid orange;
+    margin-bottom: 30px;
+}
+
+#right .formation .cursus
+{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+#right .formation .graduation
+{
+     font-size: 35px;
+     color: orange;
+}
+
+#right .formation .training .date
+{
+    display: flex; 
+}
+
+#right .formation .dotcircle
+{
+    margin: 5px;
+    margin-right: 12px;
+    font-size: 15px;
+    color:orange;
+}
+
+#right .formation .dotcircle-bis
+{
+    margin: 6px;
+    margin-right: 12px;
+    font-size: 12px;
+    color:orange;
+}
+
+#right .formation .training .date .info-date
+{
+     font-weight: 400;
+}
+
+#right .formation .training .training-inter
+{
+     margin-top: 30px;
+}
+
+#right .formation .training .training-description
+{
+     font-weight: 300;
+}
+
+#right .formation .training h5
+{
+     font-weight: 300;
+     font-size: 17px;
+}
+
+/*=============================EXPERIENCE PROFESSIONNELLE=================*/
+
+#right .experiences
+{
+    
+}
+
+#right .experiences .title
+{
+    display: flex;
+    border-bottom: 1px solid orange;
+    margin-bottom: 30px;
+}
+
+#right .experiences .cursus
+{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+#right .experiences .graduation
+{
+    font-size: 35px;
+    color: orange;
+}
+
+#right .experiences .training .date
+{
+     display: flex; 
+}
+
+#right .experiences .dotcircle
+{
+    margin: 5px;
+    margin-right: 12px;
+    font-size: 15px;
+    color:orange;
+}
+
+#right .experiences .dotcircle-bis
+{
+    margin: 6px;
+    margin-right: 12px;
+    font-size: 12px;
+    color:orange;
+}
+
+#right .experiences .training .date .info-date
+{
+     font-weight: 400;
+}
+
+#right .experiences .training .training-inter
+{
+    margin-top: 30px;
+}
+
+#right .experiences .training .training-description
+{
+    font-weight: 300;
+}
+
+#right .experiences .training h5
+{
+    font-weight: 300;
+    font-size: 17px;
+}
+
+#right .experiences ul 
+{
+    list-style: none;
+    padding: 0;
+}
+
+
+
+/*=============================RECOMMANDATION===============================*/
+
+#right .recommandation
+{
+    
+}
+
+#right .recommandation .title
+{
+    display: flex;
+    border-bottom: 1px solid orange;
+    margin-bottom: 30px;
+}
+
+#right .recommandation .cursus
+{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+#right .recommandation .pencil
+{
+     color:orange;
+}
+
+#right .recommandation .training h5
+{
+    font-weight: 300;
+    font-size: 17px;
+}
+
+#right .recommandation a
+{
+    color:black;
+    text-decoration: none;  
+}
+
+#right .recommandation .reference
+{
+    font-weight: 300;
+}
