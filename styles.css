@@ -38,7 +38,8 @@ body
 {
     text-align: center;
     margin: 74px;
-    margin-bottom: 41px;   
+    margin-bottom: 41px;
+    
 }
 
 #left-side .picture .img-pict
@@ -52,7 +53,13 @@ body
 
 #right-side .my-name
 {
-    
+   margin-left: 28px;
+   padding-left: 10px;
+   margin-top: 40px;
+   position: relative;
+   top:50px;
+
+  
 }
 
 #right-side .my-name .nom
@@ -156,7 +163,9 @@ body
 
 #right .formation
 {
-    
+   margin-left: 26px;
+   padding-left: 15px; 
+   margin-top:50px; 
 }
 
 #right .formation .title
@@ -183,7 +192,8 @@ body
 
 #right .formation .training .date
 {
-    display: flex; 
+    display: flex;
+    
 }
 
 #right .formation .dotcircle
@@ -227,7 +237,9 @@ body
 
 #right .experiences
 {
-    
+   margin-left: 26px;
+   padding-left: 15px; 
+   margin-top:120px; 
 }
 
 #right .experiences .title
@@ -276,6 +288,7 @@ body
 #right .experiences .training .date .info-date
 {
      font-weight: 400;
+   
 }
 
 #right .experiences .training .training-inter
@@ -306,7 +319,9 @@ body
 
 #right .recommandation
 {
-    
+   margin-left: 26px;
+   padding-left: 15px;
+   margin-top: 80px
 }
 
 #right .recommandation .title
@@ -352,3 +367,218 @@ body
 {
     font-weight: 200;
 }
+
+
+/*================================MEDIA QUERIES==============================*/
+
+@media screen and (max-width: 480px){
+    
+    #right-side
+    {
+        order:1;
+    }
+    
+    #right
+    {
+        order:2;
+    }
+    
+    #left
+    {
+        order:3;
+    }
+    
+    #right .formation
+    {
+       margin: 0px;
+       padding: 0px;
+      
+    }
+    
+    #right .experiences
+    {
+       margin: 0px;
+       padding: 0px;  
+    }
+    
+    #right .recommandation
+    {
+       margin: 0px;
+       padding: 0px;
+    }
+    
+    #right-side .my-name
+    {
+       margin: 0px;
+       padding: 0px;
+       margin-top: 25px
+    }
+    
+      #left .text-about
+    {
+        margin-bottom: 30px;
+    }
+    
+     #left .box-contact
+    {
+        text-align: center;
+    }
+    
+    #right .recommandation .cursus
+    {
+        margin-left: 5px;
+    }
+    
+    #right .experiences .cursus
+    {
+       margin-left: 5px; 
+    }
+    
+    #right .formation .cursus
+    {
+       margin-left: 5px;  
+    }
+    
+    #right-side .my-name .nom
+    {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    #right-side .my-name .job
+    {
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width:768px){
+    
+    #left .contact .box-contact
+    {
+        display: flex;
+    }
+    
+     #left .contact .box-contact .contact-item
+    {
+        width: 20%;
+    }
+}
+    
+
+@media screen and (max-width: 768px){
+    
+      #right-side
+    {
+        order:1;
+    }
+    
+    #right
+    {
+        order:2;
+    }
+    
+    #left
+    {
+        order:3;
+    }
+    
+    #right .formation
+    {
+       margin: 0px;
+       padding: 0px;
+      
+    }
+    
+    #right .experiences
+    {
+       margin: 0px;
+       padding: 0px;  
+    }
+    
+    #right .recommandation
+    {
+       margin: 0px;
+       padding: 0px;
+    }
+    
+    #right-side .my-name
+    {
+       margin: 0px;
+       padding: 0px;
+       margin-top: 25px
+    }
+    
+       #left .text-about
+    {
+        margin-bottom: 30px;
+    }
+    
+     #right-side .my-name .nom
+    {
+        font-size: 45px;
+        text-align: center;
+    }
+    
+    #right-side .my-name .job
+    {
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .container
+    {
+        max-width: 768px;
+    }
+    
+    
+}
+
+@media screen and (min-width:769px) and (max-width:991px){
+    
+      #right-side
+    {
+        order:1;
+    }
+    
+    #left{
+        order:3;
+    }
+    
+    #right{
+        order:2;
+    }
+    
+    #left .text-about
+    {
+        margin-bottom: 30px;
+    }
+    
+    
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    
+    #right-side
+    {
+        order:1;
+    }
+    
+    #left
+    {
+        order:2;
+    }
+    
+    #right
+    {
+        order:3;
+    }
+    
+    #left-side .picture .img-pict
+    {
+        margin-left: -22px;
+    }
+}
+    
