@@ -453,22 +453,30 @@ body
 }
 
 
-
-@media screen and (min-width: 481px) and (max-width:768px){
+@media screen and (min-width: 481px) and (max-width:686px){
     
-    #left .contact .box-contact
+     #left .box-contact
+    {
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 687px) and (max-width:991px){
+    
+    #left .box-contact
     {
         display: flex;
+        justify-content: space-around;
     }
     
-     #left .contact .box-contact .contact-item
-    {
-        width: 20%;
-    }
+     
 }
     
 
 @media screen and (max-width: 768px){
+    
+    
     
       #right-side
     {
