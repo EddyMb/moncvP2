@@ -38,8 +38,7 @@ body
 {
     text-align: center;
     margin: 74px;
-    margin-bottom: 41px;
-    
+    margin-bottom: 41px;    
 }
 
 #left-side .picture .img-pict
@@ -57,9 +56,7 @@ body
    padding-left: 10px;
    margin-top: 40px;
    position: relative;
-   top:50px;
-
-  
+   top:50px; 
 }
 
 #right-side .my-name .nom
@@ -193,7 +190,6 @@ body
 #right .formation .training .date
 {
     display: flex;
-    
 }
 
 #right .formation .dotcircle
@@ -288,7 +284,6 @@ body
 #right .experiences .training .date .info-date
 {
      font-weight: 400;
-   
 }
 
 #right .experiences .training .training-inter
@@ -392,7 +387,6 @@ body
     {
        margin: 0px;
        padding: 0px;
-      
     }
     
     #right .experiences
@@ -564,10 +558,16 @@ body
         margin-bottom: 30px;
     }
     
+    .container
+    {
+        max-width: 991px;
+    }
+    
+    
     
 }
 
-@media screen and (min-width:992px) and (max-width:1200px){
+@media screen and (min-width:992px) and (max-width:1199px){
     
     #right-side
     {
@@ -584,9 +584,11 @@ body
         order:3;
     }
     
-    #left-side .picture .img-pict
+    #left-side .picture
     {
-        margin-left: -22px;
+        position: relative;
+        right: 22px
     }
 }
-    
+
+  
