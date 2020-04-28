@@ -408,7 +408,7 @@ body
        margin-top: 25px
     }
     
-      #left .text-about
+    #left .text-about
     {
         margin-bottom: 30px;
     }
@@ -491,7 +491,6 @@ body
     {
        margin: 0px;
        padding: 0px;
-      
     }
     
     #right .experiences
@@ -513,7 +512,7 @@ body
        margin-top: 25px
     }
     
-       #left .text-about
+     #left .text-about
     {
         margin-bottom: 30px;
     }
@@ -534,13 +533,12 @@ body
     {
         max-width: 768px;
     }
-    
-    
+       
 }
 
 @media screen and (min-width:769px) and (max-width:991px){
     
-      #right-side
+    #right-side
     {
         order:1;
     }
@@ -562,9 +560,7 @@ body
     {
         max-width: 991px;
     }
-    
-    
-    
+   
 }
 
 @media screen and (min-width:992px) and (max-width:1199px){
@@ -582,6 +578,11 @@ body
     #right
     {
         order:3;
+    }
+    
+    #left .text-about
+    {
+        margin-bottom: 383px;
     }
     
     #left-side .picture
